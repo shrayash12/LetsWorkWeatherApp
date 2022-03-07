@@ -2,24 +2,24 @@
 Weather App to display weather information for cities.
 
 # Packages 
-data -  It contains all the data accessing and manipulating components.
-domain - Here ViewModel holding data for UI
-ui - It has MainActivity which shows data collected from ViewModel.
+1. data -  It contains all the data accessing and manipulating components.
+2. domain - Here ViewModel holding data for UI
+3. ui - It has MainActivity which shows data collected from ViewModel.
 
 
 # Feature
-Display a list of cities accompanied by countries with weather information.
-Display temperature in degree Celcius
-Added animated images to show the weather description
-Here is what the UI looks like ->
+1. Display a list of cities accompanied by countries with weather information.
+2. Display temperature in degree Celcius
+3. Added animated images to show the weather description
+4. Here is what the UI looks like ->
 
 https://ibb.co/71trgyt
 
 # Overview
-  LiveData - To updates app component MainActivity from ViewModel.
-  Coroutine - To perform background operation
-  Gson - To parse json string to object 
-  Lottie - To show animated images
+  1. LiveData - To updates app component MainActivity from ViewModel.
+  2. Coroutine - To perform background operation
+  3. Gson - To parse json string to object 
+  4. Lottie - To show animated images
 
 # Architecture
 Used Google MVVM architecture.
@@ -28,8 +28,8 @@ Used Google MVVM architecture.
      eg: WeatherRepository
 
 # Possible Improvement
-  Add Loading before data appears to the user
-  Add unit test and ui tests 
+  1. Add Loading before data appears to the user
+  2. Add unit test and ui tests 
 
 
 
